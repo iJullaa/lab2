@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista ToDo - JS & DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo-container">
+        <h1>Moja Lista Zadań</h1>
+
+        <div class="search-container">
+            <input type="search" id="search-input" placeholder="Wyszukaj zadania...">
+        </div>
+
+        <ul id="task-list" class="task-list">
+        </ul>
+
+        <form id="add-task-form" class="add-task-container">
+            <input type="text" id="new-task-input" placeholder="Wpisz nowe zadanie...">
+            <input type="date" id="new-task-date">
+            <button type="submit">Dodaj zadanie</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
